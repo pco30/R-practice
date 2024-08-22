@@ -82,7 +82,7 @@ plot(model)
 # Better Version using autoplot
 autoplot(model)
 
-## 9.2: Return par back to default
+## Return par back to default
 dev.off()
 
 ## or
