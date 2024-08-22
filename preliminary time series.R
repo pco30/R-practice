@@ -1,5 +1,3 @@
-# Task 1: Introduction to Time Series
-
 # Load the data
 data("EuStockMarkets")
 ?EuStockMarkets
@@ -9,8 +7,6 @@ tsData <- EuStockMarkets[, "DAX"]
 
 # Plot the time series data
 plot(tsData, main = "DAX Index Over Time", ylab = "Index Value", xlab = "Time")
-
-# Task 2: Time Series Analysis
 
 # Exploratory Analysis for time series components
 # Decompose the time series to check for Trend + Seasonality + Cyclicity
